@@ -1,0 +1,13 @@
+.section{
+  display: flex;
+
+  &__left{
+    width: 70%;
+    margin: 0;
+  }
+
+  &__right{
+    width: 30%;
+  }
+}
+

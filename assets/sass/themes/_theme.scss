@@ -1,0 +1,33 @@
+// Estilado de botones
+
+.btn--grey {
+  background-color: $white;
+  color: $quick-silver;
+  border: 1px solid $quick-silver;
+  padding: 7px;
+
+  &:hover {
+    color: $black;
+    border-color: $black;
+  }
+}
+
+.btn--green {
+  background-color: $shiny-shamrock;
+  color: $white;
+  padding: 7px;
+
+  &:hover {
+    color: $outer-space;
+    background-color: $turquoise-green;
+  }
+}
+
+// Links
+a {
+  color: $spanish-gray;
+
+  &:hover {
+    color: $black;
+  }
+}

@@ -1,0 +1,32 @@
+.header{
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+  
+
+  &__img{
+    object-fit: cover;
+    width: 100%;
+    height: max-content;
+  }
+
+  &__text{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    
+      &--title{
+        margin-top: 80px;
+        font-size: $xxx-large;
+        font-weight: 400;
+      }
+    
+      &--desc{
+        font-size: $medium;
+      }
+
+  }
+
+
+}

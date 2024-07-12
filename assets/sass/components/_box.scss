@@ -1,0 +1,32 @@
+.box--blue{
+  background-color: $blue-de-france;
+  padding: 3rem 2rem;
+  height: 260px;
+  width: 565px;
+  position: relative;
+  bottom: 20px;
+  left: 21%;
+  z-index: -1;
+}
+
+.box--red{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $flame;
+  padding: 4.2rem 4.2rem;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom:  30px;
+  right: 20px;
+  z-index: 3;
+}
+
+.box--yellow{
+  background-color: $coral;
+  padding: 4.2rem 4.2rem;
+  z-index: 2;
+  position: relative;
+}

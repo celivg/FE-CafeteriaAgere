@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  font-family: "PT Mono", monospace, monospace;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "PT Mono", monospace, monospace;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "PT Mono", monospace, monospace;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "PT Mono", monospace, monospace;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif, sans-serif;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+i {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 3rem;
+  padding-block: 20px;
+}
+.nav__img {
+  width: 2rem;
+  margin-right: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+.header__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+.header__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__text--title {
+  margin-top: 80px;
+  font-size: 70px;
+  font-weight: 400;
+}
+.header__text--desc {
+  font-size: 16px;
+}
+
+.section {
+  display: flex;
+}
+.section__left {
+  width: 70%;
+  margin: 0;
+}
+.section__right {
+  width: 30%;
+}
+
+.conocenos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.conocenos__items {
+  display: flex;
+}
+.conocenos__items--text {
+  margin-left: 3rem;
+  width: 35%;
+  margin-top: 60px;
+}
+.conocenos__items--graphics {
+  position: relative;
+  width: 35%;
+}
+.conocenos__items--graphics--mapa {
+  width: 500px;
+  height: 260px;
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 12%;
+}
+.conocenos__photos {
+  width: 30%;
+}
+.conocenos__photos--cafetera {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+}
+.conocenos__photos--granos {
+  width: 70px;
+  height: 140px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  z-index: 2;
+  left: 66%;
+}
+
+.nav__ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-family: "PT Mono", monospace;
+  text-align: center;
+  padding: 0.5rem;
+  min-width: 9rem;
+  max-width: 100%;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.text-block {
+  padding-inline: 3rem;
+}
+
+.box--blue {
+  background-color: #3c91e6;
+  padding: 3rem 2rem;
+  height: 260px;
+  width: 565px;
+  position: relative;
+  bottom: 20px;
+  left: 21%;
+  z-index: -1;
+}
+
+.box--red {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4572e;
+  padding: 4.2rem 4.2rem;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  z-index: 3;
+}
+
+.box--yellow {
+  background-color: #eacb31;
+  padding: 4.2rem 4.2rem;
+  z-index: 2;
+  position: relative;
+}
+
+.stats {
+  display: flex;
+  background-color: #ffffff;
+  position: absolute;
+  width: 640px;
+  padding: 5px;
+  top: 375px;
+  left: 480px;
+  z-index: 2;
+}
+.stats__text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.stats__text--p {
+  width: 60%;
+}
+.stats__arrow {
+  position: absolute;
+  bottom: 100px;
+  right: 310px;
+}
+
+.btn--grey {
+  background-color: #ffffff;
+  color: #a2a2a2;
+  border: 1px solid #a2a2a2;
+  padding: 7px;
+}
+.btn--grey:hover {
+  color: #000000;
+  border-color: #000000;
+}
+
+.btn--green {
+  background-color: #4ca866;
+  color: #ffffff;
+  padding: 7px;
+}
+.btn--green:hover {
+  color: #454545;
+  background-color: #9dcfab;
+}
+
+a {
+  color: #989797;
+}
+a:hover {
+  color: #000000;
+}/*# sourceMappingURL=main.css.map */
